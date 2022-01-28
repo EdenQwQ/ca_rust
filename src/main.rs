@@ -2,8 +2,8 @@ use rand::random;
 
 fn main() {
     let neighbor: usize = 3;
-    let length: usize = 100;
-    let times: usize = 100;
+    let length: usize = 200;
+    let times: usize = 200;
     let init_cell = random_bin(length);
     let rule: String = String::from("00000101000000000101010100000101000001010000000001010101000001010101010111111111010101011111111101010101111111110101010111111111");
     // let rule: String = dtb(30, 256);
